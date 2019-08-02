@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  background-color: red;
+}
+
+.main-visual {
+  height: 500px;
+  width: 100%;
+  background-color: yellow;
+}
+
+.main {
+  width: 960px;
+  background-color: pink;
+  margin: 0 auto;
+}
+
+.content-back {
+  height: 1400px;
+  width: 960px;
+  background-color: lime;
+}
+
+.content-front {
+  height: 1400px;
+  width: 30px;
+  background-color: green;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: blue;
+}
