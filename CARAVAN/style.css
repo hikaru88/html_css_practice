@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
 }
 
 .clearfix::after {
@@ -10,10 +15,28 @@
   clear: both;
 }
 
-.header {
-  width: 100%;
-  height: 120px;
-  background-color: red;
+header {
+  width: 90%;
+  height: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header .headline {
+  font-size: 32px;
+}
+
+.nav-list {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+
 }
 
 .header-top {
@@ -60,8 +83,14 @@
   float: left;
 }
 
-.footer {
+footer {
   width: 100%;
   height: 120px;
-  background-color: blue;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
 }
