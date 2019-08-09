@@ -102,3 +102,32 @@ footer {
   height: 50px;
   background-color: gray;
 }
+
+@media screen and (max-width:768px) {
+  .content-box {
+    width: 90%;
+  }
+
+  .content {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .step-img1 {
+    width: 100%;
+    background-position: bottom center;
+  }
+
+  .step-img2 {
+    width: 100%;
+    background-position: bottom 25% right 50%;
+  }
+
+  .step-img3 {
+    width: 100%;
+    background-position: bottom 25% right 50%;
+  }
+
+
+}
