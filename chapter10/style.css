@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  height: 50px;
+  background-color: gray;
+}
+
+.content-box {
+  width: 960px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content {
+  width: 300px;
+  height: auto;
+  border-style: solid;
+  border-color: #DDDDDD;
+  border-width: 1px;
+  padding: 10px;
+  float: left;
+  position: relative;
+}
+
+.content:nth-child(1) {
+  margin-right: 30px;
+}
+
+.content:nth-child(2) {
+  margin-right: 30px;
+}
+
+.step {
+  color: white;
+  background-color: orange;
+  width: 50px;
+  text-align: center;
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  left: 0;
+}
+
+.step-img1 {
+  width: 280px;
+  height: 195.8px;
+  background-size: cover;
+  background-image: url(img/flow01.png);
+  z-index: 10;
+}
+
+.step-img2 {
+  width: 280px;
+  height: 195.8px;
+  background-size: cover;
+  background-image: url(img/flow02.png);
+  z-index: 10;
+}
+
+.step-img3 {
+  width: 280px;
+  height: 195.8px;
+  background-size: cover;
+  background-image: url(img/flow03.png);
+  z-index: 10;
+}
+
+/* .step-img:nth-child(1) {
+  background-image: url(img/flow01.png);
+}
+
+.step-img:nth-child(2) {
+  background-image: url(img/flow02.png);
+}
+
+.step-img:nth-child(3) {
+  background-image: url(img/flow03.png);
+} */
+
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text {
+  padding-right: 5px;
+}
+
+footer {
+  height: 50px;
+  background-color: gray;
+}
